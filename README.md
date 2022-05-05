@@ -44,7 +44,7 @@ If you are having difficulties with installation, please do not hesitate to reac
 - [Brett Andrews](https://bretthandrews.github.io/): Python Basics
 - [Alan Pearl](https://alanpearl.github.io/): Data Structures & Functions and Modules
 - [Yasha Kaushal](https://yashakaushal.github.io/): Matplotlib I
-- [Emily](https://embiermann.github.io/): Numpy I
+- [Emily Biermann](https://embiermann.github.io/): Numpy I
 - [Zach Lewis](https://zachjlewis.github.io/): Numpy II
 - [Travis Court](https://courtt.github.io/): Numpy III and IV
 - [Biprateep Dey](https://biprateep.de/): Astropy I
