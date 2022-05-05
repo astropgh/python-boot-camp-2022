@@ -49,7 +49,7 @@ If you are having difficulties with installation, please do not hesitate to reac
 - [Travis Court](https://courtt.github.io/): Numpy III and IV
 - [Biprateep Dey](https://biprateep.de/): Astropy I
 - [David Setton](https://davidjsetton.github.io/): Astropy II
-- Collin: Matplotlib II
+- Collin McLeod: Matplotlib II
 - Lina Florez: Pandas
 
 
