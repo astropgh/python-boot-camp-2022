@@ -13,7 +13,7 @@ Then we will have a weekly seminar series to discuss more advanced topics, inclu
 ## Boot Camp
 ### Installation and Setup
 #### Python
-Please install Python 3 before the Boot Camp. I recommend using the [Anaconda](https://www.anaconda.com/products/individual) package manager **_for Python 3.8_** and then install the following packages in the terminal:
+Please install Python 3 before the Boot Camp. I recommend using the [Anaconda](https://www.anaconda.com/products/individual) package manager **_for Python 3.9_** and then install the following packages in the terminal:
 ```bash
 conda install numpy scipy astropy matplotlib jupyter ipython
 conda install -c astropy astroquery
@@ -38,11 +38,21 @@ import astroquery
 4. Type into the iPython shell the word `paste`, and press enter.
 5. If no errors are raised, you're ready for bootcamp. You may close the terminal window.
 
-If you are having difficulties with installation, please do not hesitate to reach out to Brett Andrews or Paul Zivick on Slack or via email.
+If you are having difficulties with installation, please do not hesitate to reach out to Brett Andrews on Slack or via email.
 
 ### Instructors
-- [Brett Andrews (Pitt)](https://bretthandrews.github.io/): TBD
-- [Biprateep Dey (Pitt)](https://biprateep.github.io/): TBD
+- [Brett Andrews](https://bretthandrews.github.io/): Python Basics
+- [Alan Pearl](https://alanpearl.github.io/): Data Structures & Functions and Modules
+- [Yasha Kaushal](https://yashakaushal.github.io/): Matplotlib I
+- [Emily](https://embiermann.github.io/): Numpy I
+- [Zach Lewis](https://zachjlewis.github.io/): Numpy II
+- [Travis Court](https://courtt.github.io/): Numpy III and IV
+- [Biprateep Dey](https://biprateep.de/): Astropy I
+- [David Setton](https://davidjsetton.github.io/): Astropy II
+- Collin: Matplotlib II
+- Lina Florez: Pandas
+
+
 ### Schedule
 
 | Time (EDT) | Monday (5/23) | Tuesday (5/24) | Wednesday (5/25) |
