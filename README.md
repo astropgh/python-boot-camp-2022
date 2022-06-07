@@ -69,9 +69,9 @@ Wednesdays from 2-3 pm EDT
 
 | Date | Title | Speaker |
 |:-----:|:-----:|:-----:|
-| 6/1  | | |
-| 6/8  | | |
-| 6/15 |  |  |
+| 6/1  | Code Review | Ashod Khederlarian|
+| 6/8  | Code Review | [Travis Court](https://courtt.github.io/)|
+| 6/15 |  | [Daniel Perrefort](http://djperrefort.com/) |
 | 6/22 |  |  |
 | 6/29 |  |  |
 | 7/6  |  |  |
