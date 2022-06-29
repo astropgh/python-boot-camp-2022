@@ -71,11 +71,11 @@ Wednesdays from 2-3 pm EDT
 |:-----:|:-----:|:-----:|
 | 6/1  | Code Review | Ashod Khederlarian|
 | 6/8  | Code Review | [Travis Court](https://courtt.github.io/)|
-| 6/15 |  | [Daniel Perrefort](http://djperrefort.com/) |
+| 6/15 | [Best Practices for Intermediate Level Python Development](seminars/python_best_practices_2022-06-15.pdf) | [Daniel Perrefort](http://djperrefort.com/) |
 | 6/22 |  |  |
-| 6/29 |  |  |
+| 6/29 | [AstroCoffee Tips](seminars/astrocoffee_tips_2022-06-29.pdf) | [Brett Andrews](https://bretthandrews.github.io) |
 | 7/6  |  |  |
-| 7/13 |  |  |
+| 7/13 | Create Your Own Python Module |  [Alan Pearl](https://alanpearl.github.io/) |
 | 7/20 |  |  |
 | 7/27 |  |  |
 | 8/3  |  |  |
