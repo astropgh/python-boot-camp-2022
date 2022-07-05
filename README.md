@@ -74,7 +74,7 @@ Wednesdays from 2-3 pm EDT
 | 6/15 | [Best Practices for Intermediate Level Python Development](seminars/python_best_practices_2022-06-15.pdf) | [Daniel Perrefort](http://djperrefort.com/) |
 | 6/22 |  |  |
 | 6/29 | [AstroCoffee Tips](seminars/astrocoffee_tips_2022-06-29.pdf) | [Brett Andrews](https://bretthandrews.github.io) |
-| 7/6  |  |  |
+| 7/6  | Show and Tell: Tips, Tricks, Hacks, and Tools |  |
 | 7/13 | Create Your Own Python Module |  [Alan Pearl](https://alanpearl.github.io/) |
 | 7/20 | Best Practices for Training Neural Networks | [Biprateep Dey](https://biprateep.de/) |
 | 7/27 |  |  |
