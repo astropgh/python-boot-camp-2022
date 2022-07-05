@@ -76,7 +76,7 @@ Wednesdays from 2-3 pm EDT
 | 6/29 | [AstroCoffee Tips](seminars/astrocoffee_tips_2022-06-29.pdf) | [Brett Andrews](https://bretthandrews.github.io) |
 | 7/6  |  |  |
 | 7/13 | Create Your Own Python Module |  [Alan Pearl](https://alanpearl.github.io/) |
-| 7/20 |  |  |
+| 7/20 | Best Practices for Training Neural Networks | [Biprateep Dey](https://biprateep.de/) |
 | 7/27 |  |  |
 | 8/3  |  |  |
 
