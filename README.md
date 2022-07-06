@@ -77,8 +77,12 @@ Wednesdays from 2-3 pm EDT
 | 7/6  | Show and Tell: Tips, Tricks, Hacks, and Tools |  |
 | 7/13 | Create Your Own Python Module |  [Alan Pearl](https://alanpearl.github.io/) |
 | 7/20 | Best Practices for Training Neural Networks | [Biprateep Dey](https://biprateep.de/) |
-| 7/27 |  |  |
+| 7/27 | Guide to LaTeX | Marcell Howard |
 | 8/3  |  |  |
+| 8/10  |  |  |
+| 8/17  |  |  |
+| 8/24  |  |  |
+| 8/31  |  |  |
 
 <a href="url"><img style="padding: 0px 20px;" src="https://github.com/astropgh/python-boot-camp-2021/blob/main/etc/NSF_4-Color_bitmap_Logo.png?raw=true" align="left" height="128" width="128"></a>
 
