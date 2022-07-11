@@ -78,7 +78,7 @@ Wednesdays from 2-3 pm EDT
 | 7/13 | Create Your Own Python Module |  [Alan Pearl](https://alanpearl.github.io/) |
 | 7/20 | Best Practices for Training Neural Networks | [Biprateep Dey](https://biprateep.de/) |
 | 7/27 | Guide to LaTeX | Marcell Howard |
-| 8/3  |  |  |
+| 8/3  | Writing Workflow | [Brett Andrews](https://bretthandrews.github.io/) and [Rachel Bezanson](https://rachelbezanson.github.io/) |
 | 8/10  |  |  |
 | 8/17  |  |  |
 | 8/24  |  |  |
