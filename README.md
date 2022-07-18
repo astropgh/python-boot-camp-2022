@@ -81,8 +81,8 @@ Wednesdays from 2-3 pm EDT
 | 8/3  | Writing Workflow | [Brett Andrews](https://bretthandrews.github.io/) and [Rachel Bezanson](https://rachelbezanson.github.io/) |
 | 8/10  |  |  |
 | 8/17  |  |  |
-| 8/24  |  |  |
-| 8/31  |  |  |
+| 8/24  | Intro to Git I | [Bob Caddy](http://robertcaddy.com/) |
+| 8/31  | Intro to Git II | [Bob Caddy](http://robertcaddy.com/) |
 
 <a href="url"><img style="padding: 0px 20px;" src="https://github.com/astropgh/python-boot-camp-2021/blob/main/etc/NSF_4-Color_bitmap_Logo.png?raw=true" align="left" height="128" width="128"></a>
 
