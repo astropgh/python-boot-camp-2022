@@ -1,0 +1,298 @@
+\documentclass[fleqn, 11pt]{beamer}
+% Class options include: notes, notesonly, handout, trans,
+%                        hidesubsections, shadesubsections,
+%                        inrow, blue, red, grey, brown
+
+% Theme for beamer presentation.
+\usepackage{beamerthemesplit} 
+\usepackage{setspace, float, caption, subcaption, slashed}
+\usepackage{amsmath, amssymb, nccmath, physics, tensor, listings, verbatim}
+\usepackage{xparse, chngcntr, graphicx, hyperref, wrapfig, physunits}
+\usepackage{tikz} 
+\usepackage[compat=1.1.0]{tikz-feynman}
+\usetikzlibrary{shapes,arrows,positioning,automata,backgrounds,calc,er,patterns}
+
+\title{So You Wanna Get Good At \LaTeX}
+
+\author{Marcell Howard}
+
+\begin{document}
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+\begin{frame}
+	\frametitle{Useful Packages}
+	
+	\begin{itemize}
+		\item<1->There are a bunch of packages we can import but which ones \emph{should} we import? We'll break it up in order of decreasing importance
+		\begin{itemize}
+			\item<2-> amsmath, amssymb, graphicx,
+			\item<3-> physics, hyperref, caption, subcaption, wrapfig, xparse, physunits
+			\item<4-> inputenc, chngcntr, nccmath, tensor,
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{The Necessary Packages}
+	
+	\begin{itemize}
+		\item<1-> amsmath
+		\begin{itemize}
+			\item<2-> Contains every environment to write equations in
+			\item<2-> Allows for specified alignment of objects in aforementioned environments
+		\end{itemize}
+		\item<1-> amssymb
+		\begin{itemize}
+			\item<3-> Contains just about any math symbol you've encountered in your life
+		\end{itemize}
+		\item<1-> graphicx
+		\begin{itemize}
+			\item<4-> Use if want to include figures
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{These Packages Makes Things Look Nice}
+	
+	\begin{itemize}
+		\item<1-> physics
+		\begin{itemize}
+			\item<2-> Contains just about everything a physicist could want
+			\begin{itemize}
+				\item<2-> Macros for special/transcendental functions, derivatives, matrices, etc.
+			\end{itemize}
+		\end{itemize}
+		
+		\item<1-> hyperref
+		\begin{itemize}
+			\item<3-> Makes the ref command hyperlinkable
+			\item<4-> Makes urls hyperlinkable in bibliography
+		\end{itemize}
+		
+		\item<1-> caption/subcaption
+		\begin{itemize}
+			\item<5-> Provides flexibility for captioning figures and subfigures
+		\end{itemize}
+		
+		\item<1-> wrapfig
+		\begin{itemize}
+			\item<6-> Allows for figures to be wrapped around the text
+		\end{itemize}
+		
+		\item<1-> xparse
+		\begin{itemize}
+			\item<7-> Allows for creating new commands (using the -newcommands\{\}\{\})
+		\end{itemize}
+		
+		\item<1-> physunits
+		\begin{itemize}
+			\item<8-> Nice and intuitive commands for SI units
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{You Don't Need These (But They're Nice)}
+	
+	\begin{itemize}
+		\item<1-> nccmath
+		\begin{itemize}
+			\item<2-> Basically the amsmath package but more
+		\end{itemize}
+		
+		\item<1-> tensor
+		\begin{itemize}
+			\item<3-> Allows for phantom indices for coding matrices i.e. $\tensor{A}{^\mu_\nu}$ instead of $A^\mu_\nu$
+		\end{itemize}
+		
+		\item<1-> chngctr
+		\begin{itemize}
+			\item<4-> Resets counter for equations/figures/tables etc.
+		\end{itemize}
+		
+		\item<1-> inputenc
+		\begin{itemize}
+			\item<5-> Sets the unicode version for \LaTeX but is now obsolete
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Useful Commands}
+	
+	\begin{itemize}
+		\item<1-> physics
+		\begin{itemize}
+			\item<2-> qty
+			\begin{itemize}
+				\item<3-> Can't use when using newline in an equation environment. Must use -left and -right with -. at the beginning and end of each line break
+			\end{itemize}
+			\item<2-> vector notation
+			\begin{itemize}
+				\item<4-> -vb\{a\}, -va\{a\}, -vu\{a\},
+			\end{itemize}
+			\item<2-> special functions
+			\begin{itemize}
+				\item<5-> -sin, -cos, -ldots, $\rightarrow \sin, \cos, \ldots$
+				\item<5-> -exp, -log, -ln, -erf, -ldots $\rightarrow \exp, \log, \ln, \erf, \ldots$
+				\item<5-> -det, -Pr, -Tr, -rank, -ldots $\rightarrow \det, \Pr, \Tr, \rank, \ldots$
+			\end{itemize}
+		\item<2-> matrix macros
+		\begin{itemize}
+			\item<6-> -mqty(-imat\{3\}), -mqty(-pmat\{3\}), -mqty(-zmat\{2\}\{2\}) $\rightarrow \mqty(\imat{3}), \mqty(\pmat{3}), \mqty(\zmat{2}{2})$
+		\end{itemize}
+		\end{itemize}
+	\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Useful Commands Cont.}
+	
+	\begin{itemize}
+		\item<1-> amsmath
+		\begin{itemize}
+			\item<2-> align
+			\begin{itemize}
+				\item<3-> Aligns equations via placement of \&
+				\item<3-> Updates equation counter
+			\end{itemize}
+		\item<2-> split
+		\begin{itemize}
+			\item<4-> Also aligns equations via placement of \&
+			\item<4-> Does \emph{not} update equation counter
+		\end{itemize}
+		\end{itemize}
+	
+	\item<1-> physunits
+	\begin{itemize}
+		\item<5-> Putting prefixes in front of units is very convenient i.e. kilometers becomes -m[k] to get $\m[k]$ and gigayears becomes -y[G] to get $\y[G]$
+	\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{More useful commands}
+	
+	\begin{itemize}
+		\item<1-> Can use the back slash for spacing in text and equations
+		\item<2-> Using \~\ for a non-breaking space (so write Marcell~Howard to prevent a line break between Marcell and Howard)
+		\item<3-> Spacing in equations (-; = thick -: = medium -, = thin, - (space) = single space, -! = negative thin space,)
+		\item<4-> Can use a double back slash for newlines
+		\item<5-> The -rm command un-italicizes letters
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{For Big Projects}
+	
+	\begin{itemize}
+		\item<1-> We can store the preamble, chapters, etc. in different TeX files and call them!
+		\item<2-> Use the -input, -include, or -import functions
+	\end{itemize}
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
