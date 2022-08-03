@@ -76,13 +76,13 @@ Wednesdays from 2-3 pm EDT
 | 6/29 | [AstroCoffee Tips](seminars/astrocoffee_tips_2022-06-29.pdf) | [Brett Andrews](https://bretthandrews.github.io) |
 | 7/6  | Show and Tell: Tips, Tricks, Hacks, and Tools |  |
 | 7/13 | [Python Packaging Basics](seminars/Python_Packaging_Basics_Alan_Pearl_2022-07-13.pdf) |  [Alan Pearl](https://alanpearl.github.io/) |
-| 7/20 | Best Practices for Training Neural Networks | [Biprateep Dey](https://biprateep.de/) |
-| 7/27 | Guide to LaTeX | Marcell Howard |
-| 8/3  | Writing Workflow | [Brett Andrews](https://bretthandrews.github.io/) and [Rachel Bezanson](https://rachelbezanson.github.io/) |
+| 7/20 | [How to Train Your Perceptron](https://github.com/biprateep/Tutorials/blob/master/how-to-train-your-perceptron-1.ipynb) | [Biprateep Dey](https://biprateep.de/) |
+| 7/27 | [Guide to LaTeX](seminars/latex_2022-07-27.pdf) [(tex source file)](seminars/latex_2022-07-27.tex) | Marcell Howard |
+| 8/3  | [Jumpstart Your Paper](seminars/jumpstart_your_paper_2022-08-03.pdf) | [Brett Andrews](https://bretthandrews.github.io/) and [Rachel Bezanson](https://rachelbezanson.github.io/) |
 | 8/10  |  |  |
 | 8/17  |  |  |
-| 8/24  |  |  |
-| 8/31  |  |  |
+| 8/24  | Intro to Git I | [Bob Caddy](http://robertcaddy.com/) |
+| 8/31  | Intro to Git II | [Bob Caddy](http://robertcaddy.com/) |
 
 <a href="url"><img style="padding: 0px 20px;" src="https://github.com/astropgh/python-boot-camp-2021/blob/main/etc/NSF_4-Color_bitmap_Logo.png?raw=true" align="left" height="128" width="128"></a>
 
